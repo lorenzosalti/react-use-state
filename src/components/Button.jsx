@@ -1,8 +1,8 @@
 function Button({ id, children }) {
 
-  console.log(children)
+  const log = () => console.log(children)
 
-  return <button>{children}</button>
+  return <button onClick={log}>{children}</button>
 
 }
 
