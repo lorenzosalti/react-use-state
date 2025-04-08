@@ -1,10 +1,10 @@
-function Card({ data }) {
+function Card({ title, content }) {
 
   return <div>
 
-    <h2>{data[0].title}</h2>
+    <h2>{title}</h2>
 
-    <p>{data[0].description}</p>
+    <p>{content}</p>
 
   </div>
 

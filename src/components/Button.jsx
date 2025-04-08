@@ -1,8 +1,6 @@
-function Button({ id, children }) {
+function Button({ id, openCard, children }) {
 
-  const log = () => console.log(children)
-
-  return <button onClick={log}>{children}</button>
+  return <button onClick={openCard}> {children} </button>
 
 }
 

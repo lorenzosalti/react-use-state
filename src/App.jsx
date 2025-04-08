@@ -1,8 +1,5 @@
-import ButtonsList from "./components/ButtonsList"
-import Card from "./components/Card"
-
+import Main from "./components/Main"
 import languages from "./data/languages"
-
 
 
 function App() {
@@ -10,8 +7,7 @@ function App() {
   return (
     <>
       <h1>Learn Web Development</h1>
-      <ButtonsList data={languages} />
-      <Card data={languages} />
+      <Main data={languages} />
     </>
   )
 }
